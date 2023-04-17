@@ -1,6 +1,6 @@
-# Simple Ecommerce website in React JS
+# SIMPLE ECOMMERCE WEBSITE IN REACT JS
 
-# FUNCTIONALITY
+# Functionality
 
 A Ecommerce Website, where- 
 1.User can browser for products and can filter products based on Categories
@@ -12,7 +12,7 @@ A Ecommerce Website, where-
 7.And finally user can make a payment for his/her products
 
 
-# CONCEPTS
+# Concepts
 
 This website is build on four basic concepts-
 1.Create = or add new entries
@@ -20,18 +20,18 @@ This website is build on four basic concepts-
 3.Update = or edit existing entries
 4.Delete = deactivate, or remove existing entries
 
-# TECHNOLOGIES
+# Technologies
 
 1.Node.js
 2.React
 
-# DEPENDENCIES
+# Dependencies
 
 1.React Router – To navigate user across diffrent pages of Home page – Login Page – Register Page – Cart – Product Information page
 2.Material UI is an open-source React component library that implements Google's Material Design
 3.The dotenv package allows you inject your env variable into a React Native environment.
 
-# NPM PACKAGES
+# npm packages
 
 1. @chec/commerce.js@2.8.0
 2. @material-ui/core@4.11.0
@@ -52,7 +52,7 @@ This website is build on four basic concepts-
 17. react@16.14.0
 18. semantic-ui-react@2.0.1
 
-#PROJECT SETUP
+# Project set-up
 
 1.Project Created using npx-create-react-app
 2.npm i to install all the required pakages
