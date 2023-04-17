@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+Simple Ecommerce website in React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#FUNCTIONALITY
 
-## Available Scripts
+A Ecommerce Website, where- 
+1.User can browser for products and can filter products based on Categories
+2.User can Add products to cart
+3.User can Remove items from cart
+4.User can update the quantity in cart
+5.User can checkout with his/her products
+6.User can add their address 
+7.And finally user can make a payment for his/her products
 
-In the project directory, you can run:
 
-### `npm start`
+#CONCEPTS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This website is build on four basic concepts-
+1.Create = or add new entries
+2.Read = retrieve, search, or view existing entries
+3.Update = or edit existing entries
+4.Delete = deactivate, or remove existing entries
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#TECHNOLOGIES
 
-### `npm test`
+1.Node.js
+2.React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#DEPENDENCIES
 
-### `npm run build`
+1.React Router – To navigate user across diffrent pages of Home page – Login Page – Register Page – Cart – Product Information page
+2.Material UI is an open-source React component library that implements Google's Material Design
+3.The dotenv package allows you inject your env variable into a React Native environment.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#NPM PACKAGES
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. @chec/commerce.js@2.8.0
+2. @material-ui/core@4.11.0
+3. @material-ui/icons@4.9.1
+4. @material-ui/lab@4.0.0-alpha.56
+5. @stripe/react-stripe-js@1.1.2
+6. @stripe/stripe-js@1.11.0
+7. @testing-library/jest-dom@4.2.4
+8. @testing-library/react@9.5.0
+9. @testing-library/user-event@7.2.1
+10. gh-pages@5.0.0
+11. react-dom@16.14.0
+12. react-hook-form@6.11.5
+13. react-router-dom@6.10.0
+14. react-router@5.2.0
+15. react-scripts@5.0.1
+16. react-stripe-elements@6.1.2
+17. react@16.14.0
+18. semantic-ui-react@2.0.1
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#PROJECT SETUP
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.Project Created using npx-create-react-app
+2.npm i to install all the required pakages
+3.npm install @material-ui/core @material-ui/icons @chec/commerce.js @stripe/react-stripe-js @stripe/stripe-js react-router-dom react-hook-form  to install all the Dependencies.
+4.npm install -g eslint to install estline library
+5.npm start to start development server
